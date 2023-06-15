@@ -1,0 +1,78 @@
+/*Selector universal para eliminar el margen y padding del navegador*/
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+}
+
+/*CSS body*/
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(135, 156, 178);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*CSS header*/
+header {
+    background-image: url(../img/Wa-shi-tong-mosaic.jpg);
+    padding: 5em;
+    margin: auto;
+    height: 10em;
+    width: auto;
+    background-position: top;
+    background-size: cover;
+    font-size: x-large;
+}
+
+header h1 {
+    color: rgb(255, 111, 0);
+}
+
+header h3 {
+    color: rgb(255, 145, 0);
+}
+
+/*CSS article*/
+article {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: oblique;
+    font-weight: 400;
+    padding: 40px;
+    text-align: center;
+}
+
+/*CSS Section*/
+section table {
+    margin: auto;
+    width: 60%;
+}
+
+section td {
+    border: solid 5px #131212;
+}
+
+section p {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: oblique;
+    text-align: center;
+}
+
+section img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CSS Footer*/
+footer p {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
